@@ -1,4 +1,4 @@
-# 8 Queens AI Programming Assignment 
+# AI Programming Assignment: 8 Queens
 
 ![Genetic Algorithm Performance](/8-queens_results.png)
 
