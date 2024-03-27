@@ -1,5 +1,7 @@
 # 8 Queens AI Programming Assignment 
 
+![Genetic Algorithm Performance](/8-queens_results.png)
+
   This program is a genetic algorithm implementation for the 8-Queens puzzle, a problem in which the goal is to place eight queens on a chessboard so that no two queens threaten each other. The GA operates on a population of potential solutions applying the principles of biological evolution—selection, crossover, and mutation.
   
   In this program, each individual solution is represented as a list of eight numbers, each number representing the column position of a queen in the corresponding row. The fitness function is crucial in guiding the GA towards the solution and is designed to penalize configurations where queens are attacking each other. The fitness score starts at 28, the total number of non-attacking pairs of queens, and decrements for each pair of queens in conflict. The selection of parents for producing the next generation is probabilistic, favoring individuals with higher fitness.
